@@ -1,0 +1,97 @@
+/* src/components/supplier.css  (same theme as product-container) */
+.suppliers-container {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 2rem;
+  background: #fff0fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(186, 104, 200, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.suppliers-container h1 {
+  text-align: center;
+  color: #9c27b0;
+  margin-bottom: 2rem;
+}
+
+.add-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.add-form input {
+  flex: 1 1 180px;
+  padding: 0.75rem;
+  border: 1px solid #e0d3ec;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fdf1ff;
+  transition: border 0.3s;
+}
+
+.add-form input:focus {
+  border-color: #ba68c8;
+  outline: none;
+}
+
+.add-form button {
+  flex: 1 1 150px;
+  padding: 0.75rem;
+  background-color: #ba68c8;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-form button:hover {
+  background-color: #9c27b0;
+}
+
+.supplier-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.supplier-table th,
+.supplier-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e0d3ec;
+}
+
+.supplier-table thead {
+  background-color: #f3e5f5;
+  color: #6a1b9a;
+}
+
+.supplier-table tbody tr:hover {
+  background-color: #fce4ec;
+}
+
+.delete-btn {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  background-color: #e57373;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c62828;
+}
+
+.error {
+  color: #e57373;
+  text-align: center;
+}

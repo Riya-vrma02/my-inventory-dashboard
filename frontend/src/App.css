@@ -1,0 +1,13 @@
+/* src/App.css */
+.app-layout {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 20px; /* match sidebar width */
+ 
+  width: 100%;
+  background: #f9f9fb;
+  min-height: 100vh;
+  box-sizing: border-box;
+}

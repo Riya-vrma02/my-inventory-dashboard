@@ -1,0 +1,225 @@
+
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  margin-bottom: 2rem;
+}
+
+.admin-box {
+  position: sticky;
+  background: #eee;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.admin-layout {
+
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Flex row: Dashboard (left scrollable) + Welcome Banner (fixed) */
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Scrollable left content */
+.dashboard-scroll {
+  flex: 1;
+  width: 400px;
+  overflow-y: auto;
+  background: #f4f6f8;
+  padding: 2rem;
+}
+
+/* Keep all cards in one vertical scrollable column */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+.main-content {
+  flex: 1 1 auto;
+  width: 900px;
+  padding: 1.5rem;
+  overflow-y: auto;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+}
+/* Sticky right panel */
+.welcome-banner {
+  width: 950px;
+  height: 100px;
+  background: #e8f0fe;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: -2px 0 6px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-banner h2 {
+  margin: 10px;
+  color: #3f51b5;
+  padding: 10px;
+  font-size: 1.8rem;
+}
+
+.welcome-banner p {
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+.dashboard {
+  flex: 1;
+  width: 300px;
+  background: #f4f6f8;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  background: linear-gradient(135deg, #ffffff 0%, #f7f9ff 100%);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow:
+    0 4px 12px rgba(63, 81, 181, 0.15),
+    0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chart-card {
+  height: 250px; 
+  width: 200px;      /* or your desired height */
+  overflow: hidden;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-btn, .view-btn {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  background: #3f51b5;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-btn:hover, .view-btn:hover {
+  background: #2c3e9e;
+}
+
+.big-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.progress-bar {
+  background: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 8px;
+  margin-top: 0.5rem;
+}
+
+.progress-bar > div {
+  height: 100%;
+  background: #3f51b5;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.product-table th, .product-table td {
+  padding: 0.5rem;
+  text-align: left;
+  margin-left: auto;
+  margin-right: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.alert-card {
+  background: #fff3cd;
+  border-left: 5px solid #ffc107;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+.red-alert {
+  background: #f8d7da;
+  border-left: 5px solid #dc3545;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-weight: bold;
+  color: #721c24;
+}
+
+.logout-btn {
+  position: sticky;
+  background-color: #ff4d4d;        /* Soft red background */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.logout-btn:hover {
+  background-color: #d03434;       /* Darker red on hover */
+  transform: scale(1.05);
+}
+
+.logout-btn:active {
+  background-color: #e62121;
+  transform: scale(0.98);
+}
+
+.admin-box {
+  margin-left: 20px;
+  margin-top: 21px;
+  height: 15px;
+  padding-bottom:10px;
+}

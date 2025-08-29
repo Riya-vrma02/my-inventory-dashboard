@@ -1,0 +1,103 @@
+
+.sale-container {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 2rem;
+  background: #fff0fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(186, 104, 200, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sale-container h2 {
+  text-align: center;
+  color: #9c27b0;
+  margin-bottom: 2rem;
+}
+.sale-container h3 {
+  text-align: left;
+  color: #9c27b0;
+  margin-bottom: 2rem;
+}
+.sale-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.sale-form input,
+.sale-form select {
+    flex: 1 1 200px;
+  padding: 0.75rem;
+  border: 1px solid #d9bdf2;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fdf1ff;
+}
+
+
+.sale-form input:focus,
+.sale-form select:focus {
+  border-color: #ba68c8;
+  outline: none;
+}
+
+.sale-form button {
+  flex: 1 1 150px;
+  padding: 0.75rem;
+  background-color: #ba68c8;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.sale-form button:hover {
+  background-color: #9c27b0;
+}
+
+.sales-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.sales-table th,
+.sales-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e0d3ec;
+}
+
+.sales-table thead {
+  background-color: #f3e5f5;
+  color: #6a1b9a;
+}
+
+.sales-table tbody tr:hover {
+  background-color: #fce4ec;
+}
+
+.action-btn {
+  padding: 0.4rem 0.8rem;
+  margin-right: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.edit-btn {
+  background-color: #9575cd;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #ef5350;
+  color: white;
+}

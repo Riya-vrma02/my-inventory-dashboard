@@ -1,0 +1,22 @@
+.sales-list {
+  padding: 2rem;
+}
+
+.sales-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.sales-table th, .sales-table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.sales-table th {
+  background-color: #343a40;
+  color: white;
+}

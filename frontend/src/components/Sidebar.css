@@ -1,0 +1,63 @@
+.sidebar {
+  width: 300px;
+  background-color: #1f2937;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+}
+
+.nav-link {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  display: block;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* ✅ Active tab styling */
+.nav-link.active {
+  background-color: #f0f0f0;
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Hover effect */
+.nav-link:hover {
+  background-color: #374151;
+  color: white;
+}
+
+/* Logout button */
+.logout-btn {
+  background-color: #ef4444;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #dc2626;
+}

@@ -1,0 +1,112 @@
+.product-container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 2rem;
+  background: #fff0fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(186, 104, 200, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.product-container h2 {
+  text-align: center;
+  color: #9c27b0;
+  margin-bottom: 2rem;
+}
+
+.product-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.product-form input {
+  flex: 1 1 180px;
+  padding: 0.75rem;
+  border: 1px solid #e0d3ec;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fdf1ff;
+  transition: border 0.3s;
+}
+
+.product-form input:focus {
+  border-color: #ba68c8;
+  outline: none;
+}
+
+.product-form button {
+  flex: 1 1 150px;
+  padding: 0.75rem;
+  background-color: #ba68c8;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.product-form button:hover {
+  background-color: #9c27b0;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.product-table th,
+.product-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e0d3ec;
+}
+
+.product-table thead {
+  background-color: #f3e5f5;
+  color: #6a1b9a;
+}
+
+.product-table tbody tr:hover {
+  background-color: #fce4ec;
+}
+
+.action-btn {
+  padding: 0.4rem 0.8rem;
+  margin-right: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.edit-btn {
+  background-color: #9575cd;
+  color: white;
+}
+
+.delete-btn {
+  padding: 0.75rem 1rem;
+  background-color: #ba68c8;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #9c27b0;
+}
+
+.delete-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

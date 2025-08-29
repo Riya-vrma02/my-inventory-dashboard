@@ -1,0 +1,60 @@
+/* ===== RESTOCK PAGE (same look & feel as product page) ===== */
+.restock-container {               /* renamed to reuse styles */
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 2rem;
+  background: #fff0fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(186, 104, 200, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.restock-container h2 {
+  text-align: center;
+  color: #9c27b0;
+  margin-bottom: 2rem;
+}
+
+.restock-table {                   /* keep the class name if your JS/HTML uses it */
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background: transparent;         /* no extra white box—let container color show */
+  box-shadow: none;
+}
+
+.restock-table th,
+.restock-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e0d3ec;
+}
+
+.restock-table thead {
+  background-color: #f3e5f5;
+  color: #6a1b9a;
+}
+
+.restock-table tbody tr:hover {
+  background-color: #fce4ec;
+}
+
+/* optional buttons inside the table */
+.restock-table .action-btn {
+  padding: 0.4rem 0.8rem;
+  margin-right: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.restock-table .edit-btn {
+  background-color: #9575cd;
+  color: white;
+}
+
+.restock-table .delete-btn {
+  background-color: #e57373;
+  color: white;
+}

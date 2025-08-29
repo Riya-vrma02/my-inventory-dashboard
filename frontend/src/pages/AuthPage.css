@@ -1,0 +1,31 @@
+.auth-page {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.auth-toggle {
+  margin-bottom: 1rem;
+}
+
+.auth-toggle button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.auth-toggle .active {
+  background: #800080;
+  color: #fff;
+}
+
+.auth-form {
+  margin-top: 1rem;
+}
